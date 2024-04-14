@@ -1,0 +1,40 @@
+@import "global.css";
+@import "normalize.css";
+@import "landing.css";
+@import "const.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova/proximanova_regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova/proximanova_black.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova/proximanova_black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova/proximanova_bold.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima Nova/proximanova_light.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

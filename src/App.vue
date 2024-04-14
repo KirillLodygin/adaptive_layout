@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FirstBlock />
+  <SecondBlock />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FirstBlock from "@/components/FirstBlock";
+import SecondBlock from "@/components/SecondBlock";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FirstBlock,
+    SecondBlock
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
