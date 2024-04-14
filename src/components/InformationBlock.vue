@@ -1,11 +1,13 @@
 <template>
-  <div :class="`information-block-wrapp ${offset}`">
-    <div class="frame information-block">
-      <BlockHeader />
-      <BlockTextList />
-      <YellowButton />
+  <div class="information-block-wrapp">
+    <div class="blocks-wrapp">
+      <div class="frame information-block">
+        <BlockHeader />
+        <BlockTextList />
+        <YellowButton />
+      </div>
+      <YellowFrame />
     </div>
-    <YellowFrame />
   </div>
 </template>
 
@@ -23,9 +25,5 @@ export default {
     BlockHeader,
     BlockTextList,
   },
-
-  props: {
-    offset: {type: String, required: true}
-  }
 }
 </script>

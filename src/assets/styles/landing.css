@@ -64,7 +64,6 @@ button {
     background-position: top right;
     padding-top: 22px;
     gap: 56px;
-    height: 1124px;
 }
 
 .header_picture {
@@ -114,9 +113,6 @@ button {
 
 .order-button-wrapp {
     position: relative;
-    left: -100px;
-    top: 32px;
-    z-index: 20;
 }
 
 .info-action {
@@ -129,6 +125,7 @@ button {
     padding: 12px 54px 52px 54px;
     box-sizing: border-box;
     text-align: center;
+    z-index: 20;
 }
 
 .btn-wrapp {
@@ -184,7 +181,6 @@ button {
     background-size: auto;
     background-position: 0 796px;
     background-color: var(--white-color);
-    height: 1264px;
 }
 
 .section-header-wrapp {
@@ -212,13 +208,6 @@ button {
     width: 1136px;
     min-height: 596px;
     margin-bottom: 32px;
-}
-
-.offset-1 {
-    left: 384px;
-}
-.offset-2 {
-    left: 768px;
 }
 
 .normal-text {
@@ -286,20 +275,8 @@ button {
     font-weight: var(--bold-text-weight);
 }
 
-.information-block-wrapp {
-    position: relative;
-}
-
 .information-block-wrapp:hover .yellow-frame {
     opacity: 1;
-}
-
-.frame {
-    position: absolute;
-    box-sizing: border-box;
-    width: var(--frame-width);
-    height: var(--frame-height);
-    border-radius: var(--frame-border-radius);
 }
 
 .yellow-frame {
@@ -309,6 +286,22 @@ button {
     z-index: 0;
     opacity: 0;
     transition: opacity 0.2s linear 0.1s;
+}
+
+.information-block-wrapp {
+    width: 368px;
+}
+
+.blocks-wrapp {
+    position: relative;
+}
+
+.frame {
+    position: absolute;
+    box-sizing: border-box;
+    width: var(--frame-width);
+    height: var(--frame-height);
+    border-radius: var(--info-frame-border-radius);
 }
 
 .information-block {

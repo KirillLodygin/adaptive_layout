@@ -2,9 +2,9 @@
   <div class="block-wrapp leaves-1">
     <SectionHeader />
     <div class="information-blocks-wrapp">
-      <InformationBlock offset="" />
-      <InformationBlock offset="offset-1" />
-      <InformationBlock offset="offset-2" />
+      <InformationBlock />
+      <InformationBlock />
+      <InformationBlock />
     </div>
     <p class="normal-text">Проектно-изыскательские работы – 4 000,00 рублей (за раздел сметы);</p>
     <p class="big-text">Расчеты производятся с применением сметных программных комплексов
