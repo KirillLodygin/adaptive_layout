@@ -1,10 +1,10 @@
 <template>
-  <div class="frame yellow-frame"/>
+  <div class="three-dots" />
 </template>
 
 <script>
 export default {
-  name: "YellowFrame"
+  name: "ThreeDots"
 }
 </script>
 

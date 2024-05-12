@@ -1,5 +1,5 @@
 <template>
-  <div class="section-header-wrapp">
+  <div class="section-header-container">
     <h2>Заголовок секции</h2>
     <div class="header-line"/>
   </div>

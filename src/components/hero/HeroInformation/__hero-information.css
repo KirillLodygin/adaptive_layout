@@ -1,0 +1,52 @@
+.hero-information__container {
+    height: auto;
+    min-height: 280px;
+    border-left: 2px solid var(--black-color);
+    padding: 0 0 0 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+    margin: 0 22rem 0 25rem;
+}
+
+.hero-information__wrapp {
+    font-size: var(--block-text-size);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.hero-information__block {
+    min-height: 110px;
+    height: auto;
+}
+
+.hero-information__block:last-child {
+    min-height: 0;
+}
+
+@media (max-width: 640px) {
+    .hero-information__container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .hero-information__wrapp {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-information__container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .hero-information__wrapp {
+        gap: 16px;
+    }
+}
