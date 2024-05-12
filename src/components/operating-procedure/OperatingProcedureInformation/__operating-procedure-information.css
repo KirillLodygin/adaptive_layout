@@ -1,0 +1,36 @@
+.operating-procedure-information__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 84px;
+    max-width: 70px;
+    margin-left: 25rem;
+    min-height: 340px;
+    height: auto;
+}
+
+.operating-procedure-information__steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 48px;
+    width: 31rem;
+    padding: 0;
+}
+
+.operating-procedure-information__steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.operation-procedure-step__instruction {
+    font-size: var(--block-text-size-smole);
+    font-weight: var(--text-weight);
+    color: var(--black-color);
+    text-align: left;
+    padding-left: 93px;
+}

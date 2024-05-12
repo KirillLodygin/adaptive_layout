@@ -1,26 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeroBlock />
+  <CostBlock />
+  <OperatingProcedure />
+  <ServicesBlock />
+  <PromisesBlock />
+  <CompanyBlock />
+  <MapBlock />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeroBlock from "@/components/hero/Hero";
+import CostBlock from "@/components/cost/Cost";
+import OperatingProcedure from "@/components/operating-procedure/OperatingProcedure";
+import ServicesBlock from "@/components/services/Services";
+import PromisesBlock from "@/components/promises/Promises";
+import CompanyBlock from "@/components/company/Company";
+import MapBlock from "@/components/map/Map";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeroBlock,
+    CostBlock,
+    OperatingProcedure,
+    ServicesBlock,
+    PromisesBlock,
+    CompanyBlock,
+    MapBlock
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

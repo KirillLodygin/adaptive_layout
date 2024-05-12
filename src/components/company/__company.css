@@ -1,0 +1,25 @@
+.company__about {
+    max-width: 58rem;
+    height: auto;
+    margin-left: 30rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+    font-size: var(--block-text-size);
+}
+
+.company__reasons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 7rem;
+    margin-left: 25rem;
+    margin-bottom: 112px;
+}
+
+.company__logo-lyne {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    margin-left: 25rem;
+}

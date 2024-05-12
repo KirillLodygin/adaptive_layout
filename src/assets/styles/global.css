@@ -1,0 +1,95 @@
+body {
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    color: var(--header-color);
+    background-color: var(--body-color);
+}
+
+h1 {
+    font-size: var(--main-header-text-size);
+    font-weight: var(--bold-text-weight);
+    display: block;
+    line-height: 56px;
+    text-align: left;
+}
+
+h2 {
+    font-size: var(--section-header-size);
+    font-weight: var(--bold-text-weight);
+}
+
+h3 {
+    font-size: var(--block-header-size);
+    text-align: left;
+    line-height: 24px;
+}
+
+button {
+    font-family: Proxima Nova, serif;
+    font-size: var(--btn-text-size);
+    border-radius: var(--btn-border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease .28s;
+    cursor: pointer;
+}
+
+.bold-text {
+    font-weight: var(--bold-text-weight);
+}
+
+.block-wrapp {
+    width: 100%;
+    height: auto;
+    padding-top: 112px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.honest-block {
+    background-color: var(--white-color);
+}
+
+.details {
+    opacity: 50%;
+    display: none;
+    font-size: var(--block-text-size-min);
+}
+
+.details::after {
+    content: url('../img/scroll-up.svg');
+    display: inline-block;
+    margin-left: 8px;
+}
+
+@media (max-width: 640px) {
+    h1, .yellow-frame, .text-wrapp {
+        display: none;
+    }
+
+    h3, button {
+        font-size: var(--block-text-size);
+    }
+
+    .details {
+        display: block;
+    }
+}
+
+@media (max-width: 375px) {
+    h1, .yellow-frame, .text-wrapp {
+        display: none;
+    }
+
+    h3, button {
+        font-size: var(--block-text-size);
+    }
+
+    .details {
+        display: block;
+    }
+}

@@ -1,0 +1,8 @@
+.promises__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3.5rem;
+    margin-left: 25rem;
+    height: auto;
+}
