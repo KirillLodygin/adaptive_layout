@@ -1,0 +1,49 @@
+.hero-button__container {
+    position: relative;
+    margin-left: 39rem;
+}
+
+.hero-button__info {
+    position: relative;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border-radius: var(--frame-border-radius);
+    width: 683px;
+    height: auto;
+    padding: 24px 54px 52px 54px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 20;
+    box-shadow: 0 16px 40px 0 #00000014;
+}
+
+.hero-button__btn-wrapp {
+    position: absolute;
+    z-index: 100;
+    top: 90px;
+    left: 222px;
+}
+
+.hero-button__line-wrapp {
+    position: absolute;
+    z-index: 50;
+    top: 92px;
+    left: 200px;
+    width: 417px;
+    height: 79px;
+    background-image: url("@/assets/img/ticket.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 27px;
+    box-sizing: border-box;
+}
+
+.hero-button__line {
+    height: 4px;
+    width: 248px;
+    background-color: var(--black-color);
+}

@@ -1,0 +1,37 @@
+.company-reason__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.company-reason__number {
+    font-size: var(--reason-number-size);
+    font-weight: var(--bold-text-weight);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.company-reason__text {
+    text-align: center;
+    font-weight: var(--text-weight);
+    font-size: var(--block-text-size-smole);
+    margin-top: 25px;
+    height: auto;
+}
+
+._first {
+    width: 163px;
+}
+
+._second {
+    width: 197px;
+}
+
+._third {
+    width: 187px;
+}
+
+._fourth {
+    width: 276px;
+}

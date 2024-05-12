@@ -1,0 +1,11 @@
+.cost-information__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    width: 71rem;
+    min-height: 596px;
+    height: auto;
+    margin-left: 25rem;
+    margin-bottom: 32px;
+}

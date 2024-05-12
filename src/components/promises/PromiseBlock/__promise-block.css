@@ -1,0 +1,68 @@
+.promise__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+    height: auto;
+    max-width: 313px;
+}
+
+.promise__icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    width: 160px;
+    height: 160px;
+    -moz-border-radius: 160px;
+    -webkit-border-radius: 160px;
+    border-radius: 160px;
+    margin-bottom: 24px;
+}
+
+.promise__first-icon {
+    width: 75.61px;
+    height: 58.53px;
+    background-image: url("@/assets/img/first-icon.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.promise__second-icon {
+    width: 75.5px;
+    height: 75.61px;
+    background-image: url("@/assets/img/second-icon.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.promise__third-icon {
+    width: 75.61px;
+    height: 63.35px;
+    background-image: url("@/assets/img/third-icon.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.first {
+    width: 250px;
+}
+
+.second {
+    width: 313px;
+}
+
+.third {
+    width: 276px;
+}
+
+.promise__text {
+    margin-top: 16px;
+    height: auto;
+    text-align: center;
+    font-size: var(--block-text-size);
+}

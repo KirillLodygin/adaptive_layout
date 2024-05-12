@@ -1,0 +1,37 @@
+.company-logo {
+    border: var(--frame-border-color) solid 1px;
+    border-right: 0;
+    width: 187px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.company-logo_last-child {
+    border-right: var(--frame-border-color) solid 1px;
+}
+
+._first-logo {
+    background-image: url("@/assets/img/Rectangle_2.24.png");
+}
+
+._second-logo {
+    background-image: url("@/assets/img/Rectangle_2.25.png");
+}
+
+._third-logo {
+    background-image: url("@/assets/img/Rectangle_2.26.png");
+}
+
+._fourth-logo {
+    background-image: url("@/assets/img/Rectangle_2.27.png");
+}
+
+._fifth-logo {
+    background-image: url("@/assets/img/Rectangle_2.22.png");
+}
+
+._sixth-logo {
+    background-image: url("@/assets/img/Rectangle_2.28.png");
+}

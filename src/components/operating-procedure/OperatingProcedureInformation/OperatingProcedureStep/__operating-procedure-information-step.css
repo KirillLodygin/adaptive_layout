@@ -1,0 +1,43 @@
+.operation-procedure-step__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 37px;
+}
+
+.operation-procedure-step__circle {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    background-color: var(--yellow-color);
+    -moz-border-radius: 56px;
+    -webkit-border-radius: 56px;
+    border-radius: 56px;
+    color: var(--black-color);
+    font-size: var(--number-size);
+    font-weight: var(--bold-text-weight);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operation-procedure-step__circle::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(180deg, var(--yellow-color) 0%, rgba(255, 217, 0, 0) 100%);
+    width: 4px;
+    height: 48px;
+    left: 26px;
+    top: 56px;
+}
+
+.operation-procedure-step__container:last-child .operation-procedure-step__circle::after {
+    content: none;
+}
+
+.operation-procedure-step__text {
+    font-size: var(--block-text-size);
+    font-weight: var(--bold-text-weight);
+    text-align: left;
+    width: 25rem;
+}

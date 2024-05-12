@@ -1,0 +1,39 @@
+:root {
+  --main-header-text-size: 3rem;
+  --main-header-subtitle-text-size: 1.5rem;
+
+  --section-header-size: 2.5rem;
+  --block-header-size: 1.1rem;
+  --attention-header-size: 1.2rem;
+  --block-text-size: 1rem;
+  --block-text-size-smole: 0.8rem;
+  --block-text-size-min: 0.7rem;
+  --number-size: 1.5rem;
+  --reason-number-size: 4rem;
+  --text-weight: 400;
+  --bold-text-weight: 900;
+
+  --frame-width: 22rem;
+  --frame-height: 36rem;
+  --frame-border-radius: 5rem;
+
+  --info-frame-border-radius: 0.5rem;
+
+  --btn-border-radius: 4.5rem;
+  --btn-text-size: 1.1rem;
+
+  --header-color: #000000;
+  --body-color: #F4F5F7;
+  --yellow-color: #FFD900;
+  --black-color: #000000;
+  --white-color: #FFFFFF;
+  --yellow-btn-color: #FFD900;
+  --yellow-btn-color-hover: #ffef00;
+  --yellow-btn-text-color: #222222;
+  --black-btn-color: #222222;
+  --black-btn-color-hover: #dddddd;
+  --black-btn-text-color: #FFFFFF;
+  --black-btn-text-color-hover: #222222;
+  --attention-color: #FF5721;
+  --frame-border-color: #E7E7E7;
+}
