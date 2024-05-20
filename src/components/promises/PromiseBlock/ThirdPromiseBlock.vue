@@ -11,6 +11,8 @@
 </template>
 
 <script>
+import "./__promise-block.css";
+
 export default {
   name: "ThirdPromiseBlock"
 }

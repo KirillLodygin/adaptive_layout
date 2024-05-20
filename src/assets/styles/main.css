@@ -1,133 +1,119 @@
 @import "@/assets/styles/global.css";
 @import "@/assets/styles/normalize.css";
 @import "@/assets/styles/variables.css";
-@import "@/components/ui/__ui.css";
-@import "@/components/hero/__hero.css";
-@import "@/components/hero/HeroHeader/__hero-header.css";
-@import "@/components/hero/HeroInformation/__hero-information.css";
-@import "@/components/hero/HeroButton/__hero-button.css";
-@import "@/components/cost/__cost.css";
-@import "@/components/ui/CostInformation/__cost-infortmation.css";
-@import "@/components/operating-procedure/OperatingProcedureInformation/__operating-procedure-information.css";
-@import "@/components/operating-procedure/OperatingProcedureInformation/OperatingProcedureStep/__operating-procedure-information-step.css";
-@import "@/components/operating-procedure/OperatingProcedureAttention/__operation-procedure-attention.css";
-@import "@/components/promises/__promises.css";
-@import "@/components/promises/PromiseBlock/__promise-block.css";
-@import "@/components/promises/ThreeDots/__three-dots.css";
-@import "@/components/company/__company.css";
-@import "@/components/company/CompanyReason/__company-reason.css";
-@import "@/components/company/CompanyLogo/__company-logo.css";
-@import "@/components/map/__map.css";
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url("../fonts/Proxima Nova/proximanova_regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap');
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url("../fonts/Proxima Nova/proximanova_black.otf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Proxima Nova";*/
+/*  src: url("../fonts/Proxima Nova/proximanova_regular.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url("../fonts/Proxima Nova/proximanova_black.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Proxima Nova";*/
+/*  src: url("../fonts/Proxima Nova/proximanova_black.otf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url("../fonts/Proxima Nova/proximanova_bold.otf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Proxima Nova";*/
+/*  src: url("../fonts/Proxima Nova/proximanova_black.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url("../fonts/Proxima Nova/proximanova_light.otf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Proxima Nova";*/
+/*  src: url("../fonts/Proxima Nova/proximanova_bold.otf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Proxima Nova";*/
+/*  src: url("../fonts/Proxima Nova/proximanova_light.otf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-BoldItalic.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-ExtraBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-BoldItalic.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-ExtraLight.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-ExtraBold.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-ExtraLight.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-MediumItalic.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-MediumItalic.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: "Montserrat";*/
+/*  src: url("../fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 

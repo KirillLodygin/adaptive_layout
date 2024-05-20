@@ -3,6 +3,8 @@
 </template>
 
 <script>
+import "./__company-logo.css";
+
 export default {
   name: "SixthCompanyLogo"
 }

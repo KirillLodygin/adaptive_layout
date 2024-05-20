@@ -1,0 +1,7 @@
+.hero-picture-wrapp {
+    position: absolute;
+    height: auto;
+    z-index: -10;
+    top: 0;
+    right: 0;
+}

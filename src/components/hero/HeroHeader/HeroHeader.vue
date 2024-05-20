@@ -18,6 +18,8 @@
 </template>
 
 <script>
+import "./__hero-header.css";
+
 export default {
   name: "HeroHeader"
 }

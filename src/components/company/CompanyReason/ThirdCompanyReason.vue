@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import "./__company-reason.css";
+
 export default {
   name: "ThirdCompanyReason"
 }

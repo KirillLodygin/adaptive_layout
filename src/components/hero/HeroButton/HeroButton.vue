@@ -15,6 +15,8 @@
 </template>
 
 <script>
+import "./__hero-button.css";
+
 import BlackButton from "@/components/ui/BlackButton";
 export default {
   name: "HeroButton",

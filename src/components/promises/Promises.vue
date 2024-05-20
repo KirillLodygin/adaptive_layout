@@ -12,6 +12,8 @@
 </template>
 
 <script>
+import "./__promises.css"
+
 import SectionHeader from "@/components/ui/SectionHeader";
 import FirstPromiseBlock from "@/components/promises/PromiseBlock/FirstPromiseBlock";
 import ThreeDots from "@/components/promises/ThreeDots/ThreeDots";

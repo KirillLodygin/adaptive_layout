@@ -6,6 +6,8 @@
 </template>
 
 <script>
+import "./__ui.css";
+
 export default {
   name: "SectionHeader"
 }

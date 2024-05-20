@@ -16,6 +16,8 @@
 </template>
 
 <script>
+import "./__operating-procedure-information.css";
+
 import OperatingProcedureStep
   from "@/components/operating-procedure/OperatingProcedureInformation/OperatingProcedureStep/OperatingProcedureStep";
 import OperatingProcedureAttention

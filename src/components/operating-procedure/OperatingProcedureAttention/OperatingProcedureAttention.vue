@@ -22,6 +22,8 @@
 </template>
 
 <script>
+import "./__operation-procedure-attention.css"
+
 export default {
   name: "OperatingProcedureAttention"
 }

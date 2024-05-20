@@ -1,8 +1,4 @@
-.leaves {
-    background-image: url("@/assets/img/leaves_1.svg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 0 796px;
+.cost__container {
     background-color: var(--white-color);
 }
 

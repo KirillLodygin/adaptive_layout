@@ -52,6 +52,8 @@
 </template>
 
 <script>
+import "./__hero-information.css";
+
 export default {
   name: "HeroInformation"
 }
