@@ -1,6 +1,6 @@
 <template>
   <div class="hero-picture-wrapp">
-    <img src="@/assets/img/header-picture.svg" loading="lazy" alt="">
+    <img src="@/assets/img/header-picture.png" loading="lazy" alt="">
   </div>
 </template>
 

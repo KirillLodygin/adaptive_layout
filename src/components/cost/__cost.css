@@ -6,7 +6,6 @@
     font-size: var(--block-text-size);
     text-align: center;
     width: 38rem;
-    margin-left: 41rem;
 }
 
 .cost__big-text {
@@ -15,10 +14,8 @@
     max-width: 48rem;
     margin-top: 48px;
     margin-bottom: 24px;
-    margin-left: 36rem;
 }
 
 .cost__black-button-wrapp {
     margin-top: 32px;
-    margin-left: 54rem;
 }

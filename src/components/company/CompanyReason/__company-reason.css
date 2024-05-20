@@ -7,7 +7,7 @@
 
 .company-reason__number {
     font-size: var(--reason-number-size);
-    font-weight: var(--bold-text-weight);
+    font-weight: var(--text-weight);
     text-align: center;
     margin-bottom: 32px;
 }
