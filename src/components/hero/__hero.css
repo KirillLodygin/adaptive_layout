@@ -1,8 +1,4 @@
 .hero__container {
-    background-image: url("@/assets/img/header-picture.svg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: top right;
     padding-top: 22px;
     gap: 56px;
 }
@@ -15,5 +11,4 @@
     width: 22px;
     height: 11px;
     margin-top: 4rem;
-    margin-left: 59rem;
 }

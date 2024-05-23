@@ -1,5 +1,8 @@
 <template>
-  <div class="block-wrapp honest-block map">
+  <div class="honest-block map">
+    <div class="map-picture">
+      <img src="@/assets/img/map.png" loading="lazy" alt="">
+    </div>
     <div class="map_info-wrapp">
       <div class="map_info">
         <p class="map_info-header">Свяжитесь с нами</p>
@@ -32,6 +35,8 @@
 </template>
 
 <script>
+import "./__map.css";
+
 export default {
   name: "MapBlock"
 }

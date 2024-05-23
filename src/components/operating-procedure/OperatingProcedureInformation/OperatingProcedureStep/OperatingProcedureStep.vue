@@ -8,6 +8,8 @@
 </template>
 
 <script>
+import "./__operating-procedure-information-step.css"
+
 export default {
   name: "OperatingProcedureStep"
 }

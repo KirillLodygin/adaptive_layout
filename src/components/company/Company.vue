@@ -25,6 +25,8 @@
 </template>
 
 <script>
+import "./__company.css";
+
 import SectionHeader from "@/components/ui/SectionHeader";
 import FirstCompanyReason from "@/components/company/CompanyReason/FirstCompanyReason";
 import SecondCompanyReason from "@/components/company/CompanyReason/SecondCompanyReason";

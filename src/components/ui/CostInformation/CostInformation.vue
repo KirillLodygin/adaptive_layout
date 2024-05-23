@@ -7,6 +7,8 @@
 </template>
 
 <script>
+import "./__cost-infortmation.css";
+
 import InformationBlock from "@/components/ui/InformationBlock";
 export default {
   name: "CostInformation",

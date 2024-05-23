@@ -1,5 +1,6 @@
 <template>
-  <div class="block-wrapp leaves">
+  <div class="block-wrapp cost__container">
+    <CostPicture />
     <SectionHeader />
     <CostInformation />
     <p class="cost__normal-text">Проектно-изыскательские работы – 4 000,00 рублей (за раздел сметы);</p>
@@ -13,15 +14,20 @@
 </template>
 
 <script>
+import "./__cost.css";
+
 import SectionHeader from "@/components/ui/SectionHeader";
 import CostInformation from "@/components/ui/CostInformation/CostInformation";
 import BlackButton from "@/components/ui/BlackButton";
+import CostPicture from "@/components/cost/CostPicture/CostPicture";
+
 export default {
   name: "CostBlock",
   components: {
     SectionHeader,
     CostInformation,
-    BlackButton
+    BlackButton,
+    CostPicture
   }
 }
 </script>
