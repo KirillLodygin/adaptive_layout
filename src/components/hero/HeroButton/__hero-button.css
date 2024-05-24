@@ -1,5 +1,14 @@
 .hero-button__container {
     position: relative;
+    height: auto;
+}
+
+.hero-button__container .yellow-line {
+    display: none;
+}
+
+.hero-button__small-screen {
+    display: none;
 }
 
 .hero-button__info {
@@ -45,4 +54,55 @@
     height: 4px;
     width: 248px;
     background-color: var(--black-color);
+}
+
+@media (max-width: 640px) {
+    .hero-button__container {
+        width: auto;
+        height: auto;
+        background-color: var(--white-color);
+        border-radius: var(--frame-border-radius);
+        padding: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    .hero-button__container .yellow-line {
+        display: block;
+    }
+
+    .hero-button__small-screen {
+        display: block;
+    }
+
+    .hero-button__info {
+        width: 100%;
+        box-shadow: none;
+        text-align: left;
+        padding: 0;
+    }
+
+    .hero-button__btn-wrapp {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+    }
+
+    .hero-button__line-wrapp {
+        top: 105px;
+        left: 280px;
+        width: 170px;
+        background-image: url("@/assets/img/ticket_1.png");
+    }
+
+    .hero-button__line {
+        opacity: 0;
+    }
 }

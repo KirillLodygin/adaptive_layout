@@ -68,8 +68,12 @@ button {
 }
 
 @media (max-width: 640px) {
-    h1, .yellow-frame, .text-wrapp {
+    h1, .yellow-frame {
         display: none;
+    }
+
+    h2 {
+        font-size: var(--main-header-subtitle-text-size);
     }
 
     h3, button {
@@ -79,18 +83,13 @@ button {
     .details {
         display: block;
     }
-}
 
-@media (max-width: 375px) {
-    h1, .yellow-frame, .text-wrapp {
+    .block-wrapp {
+        padding: 1.5rem 1.25rem;
+        align-items: flex-start;
+    }
+
+    .info-text {
         display: none;
-    }
-
-    h3, button {
-        font-size: var(--block-text-size);
-    }
-
-    .details {
-        display: block;
     }
 }

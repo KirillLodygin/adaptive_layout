@@ -147,14 +147,13 @@
     .information-block {
         padding: 40px;
     }
-}
 
-@media (max-width: 375px) {
-    .main-information {
+    .header-line {
         display: none;
     }
 
-    .information-block {
-        padding: 40px;
+    .section-header-container {
+        align-items: flex-start;
     }
 }
+
