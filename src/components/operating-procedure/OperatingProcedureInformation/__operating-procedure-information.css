@@ -33,3 +33,10 @@
     text-align: left;
     padding-left: 93px;
 }
+
+@media (max-width: 640px) {
+    .operating-procedure-information__container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

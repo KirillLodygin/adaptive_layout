@@ -2,8 +2,10 @@
   <div>
     <div class="hero-button__container">
       <div class="hero-button__info">
-        Акция: <span class="bold-text">при стоимости работ по расчету сметы от 10 000,00 руб. КС-2, КС-3 в подарок.</span>
+        Акция:<br class="hero-button__small-screen"/> <span class="bold-text">при стоимости работ
+        по расчету сметы от 10 000,00 руб. КС-2, КС-3 в подарок.</span>
       </div>
+      <div class="yellow-line"/>
       <div class="hero-button__btn-wrapp">
         <BlackButton />
       </div>

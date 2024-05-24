@@ -1,6 +1,7 @@
 .hero__container {
     padding-top: 22px;
     gap: 56px;
+    width: 100%;
 }
 
 .hero__scroll-down {
@@ -11,4 +12,10 @@
     width: 22px;
     height: 11px;
     margin-top: 4rem;
+}
+
+@media (max-width: 640px) {
+    .hero__scroll-down {
+        display: none;
+    }
 }

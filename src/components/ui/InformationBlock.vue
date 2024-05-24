@@ -3,7 +3,9 @@
     <div class="frame information-block">
       <BlockHeader />
       <BlockTextList />
-      <YellowButton />
+      <div class="yellow-button-wrapp">
+        <YellowButton />
+      </div>
     </div>
   </div>
 </template>

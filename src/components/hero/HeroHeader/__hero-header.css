@@ -24,7 +24,7 @@
 
 .hero-header__title-first-point {
     font-size: var(--main-header-text-size);
-    line-height: 56px;
+    line-height: 3.5rem;
     text-align: left;
 }
 
@@ -33,4 +33,44 @@
     line-height: 32px;
     text-align: left;
     max-width: 39rem;
+}
+
+@media (max-width: 640px) {
+    .hero-header__container {
+        margin: 0 1.25rem;
+    }
+
+    .hero-header__title-wrapp {
+        margin-bottom: 48px;
+    }
+
+    .hero-header__title-wrapp h1 {
+        display: none;
+    }
+
+    .hero-header__title-picture {
+        display: block;
+    }
+
+    .hero-header__title {
+        gap: 16px;
+    }
+
+    .hero-header__title-first-point {
+        font-size: var(--main-header-subtitle-text-size);
+        line-height: 2rem;
+        margin-right: 20rem;
+    }
+
+    .hero-header__title-second-point {
+        font-size: var(--block-text-size-smole);
+        line-height: 1.5rem;
+        margin-right: 12rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .hero-header__container {
+        display: none;
+    }
 }

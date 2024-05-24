@@ -33,20 +33,14 @@
     .hero-information__container {
         flex-direction: column;
         gap: 16px;
+        margin: 0 1rem 0 1.25rem;
     }
 
     .hero-information__wrapp {
         gap: 16px;
     }
-}
 
-@media (max-width: 375px) {
-    .hero-information__container {
-        flex-direction: column;
-        gap: 16px;
-    }
-
-    .hero-information__wrapp {
-        gap: 16px;
+    .hero-information__block {
+        min-height: 0;
     }
 }

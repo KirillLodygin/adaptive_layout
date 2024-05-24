@@ -9,14 +9,14 @@
     font-size: var(--reason-number-size);
     font-weight: var(--text-weight);
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .company-reason__text {
     text-align: center;
     font-weight: var(--text-weight);
     font-size: var(--block-text-size-smole);
-    margin-top: 25px;
+    margin-top: 1.6rem;
     height: auto;
 }
 
@@ -34,4 +34,18 @@
 
 ._fourth {
     width: 276px;
+}
+
+@media (max-width: 640px) {
+    .company-reason__container {
+        gap: 1rem;
+    }
+
+    .company-reason__number {
+        margin-bottom: .8rem;
+    }
+
+    .company-reason__text {
+        margin-top: .8rem;
+    }
 }
