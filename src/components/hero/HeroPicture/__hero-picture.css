@@ -6,3 +6,16 @@
     right: 0;
     mix-blend-mode: darken;
 }
+
+@media (max-width: 640px) {
+    .hero-picture-wrapp {
+        top: -220px;
+        right: -240px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-picture-wrapp {
+        display: none;
+    }
+}

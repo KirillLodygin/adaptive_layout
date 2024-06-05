@@ -29,7 +29,7 @@
     gap: 24px;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .header-line {
@@ -81,7 +81,7 @@
 
 .information-block {
     background-color: var(--white-color);
-    padding: 40px;
+    padding: 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -147,14 +147,34 @@
     .information-block {
         padding: 40px;
     }
-}
 
-@media (max-width: 375px) {
-    .main-information {
+    .header-line {
         display: none;
     }
 
-    .information-block {
-        padding: 40px;
+    .section-header-container {
+        align-items: flex-start;
+    }
+
+    .frame {
+        position: relative;
+        max-width: 39rem;
+        width: 100%;
+        min-height: 0;
+    }
+
+    .information-block-wrapp::after {
+        display: none;
+    }
+
+    .block-header-wrapp {
+        max-width: 39rem;
+    }
+
+    .yellow-button-wrapp {
+        margin-top: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }

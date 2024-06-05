@@ -1,5 +1,5 @@
 <template>
-  <div class="company-logo _third-logo" />
+  <div class="company-logo _third-logo company-logo_last-child" />
 </template>
 
 <script>

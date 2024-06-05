@@ -7,3 +7,9 @@
     background-size: auto;
     background-position: center;
 }
+
+@media (max-width: 640px) {
+    .three-dots {
+        display: none;
+    }
+}

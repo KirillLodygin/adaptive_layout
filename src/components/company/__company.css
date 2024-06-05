@@ -20,3 +20,23 @@
     align-items: flex-start;
     gap: 0;
 }
+
+@media (max-width: 640px) {
+    .company__about {
+        text-align: left;
+        font-size: var(--block-text-size-smole);
+    }
+
+    .company__reasons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+    .company__logo-lyne {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

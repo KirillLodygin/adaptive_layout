@@ -8,3 +8,9 @@
     height: auto;
     margin-bottom: 32px;
 }
+
+@media (max-width: 640px) {
+    .cost-information__container {
+        flex-direction: column;
+    }
+}

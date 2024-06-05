@@ -18,7 +18,7 @@
     -moz-border-radius: 160px;
     -webkit-border-radius: 160px;
     border-radius: 160px;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .promise__first-icon {
@@ -65,4 +65,42 @@
     height: auto;
     text-align: center;
     font-size: var(--block-text-size);
+}
+
+@media (max-width: 640px) {
+    .promise__container {
+        align-items: flex-start;
+    }
+
+    .promise__icon-circle {
+        width: 56px;
+        height: 56px;
+        -moz-border-radius: 56px;
+        -webkit-border-radius: 56px;
+        border-radius: 56px;
+        margin-bottom: 1rem;
+    }
+
+    .promise__text {
+        text-align: left;
+        font-size: var(--block-text-size-smole);
+    }
+
+    .promise__first-icon {
+        width: 34.67px;
+        height: 26.84px;
+        background-size: contain;
+    }
+
+    .promise__second-icon {
+        width: 30.98px;
+        height: 31.03px;
+        background-size: contain;
+    }
+
+    .promise__third-icon {
+        width: 36.57px;
+        height: 30.65px;
+        background-size: contain;
+    }
 }
