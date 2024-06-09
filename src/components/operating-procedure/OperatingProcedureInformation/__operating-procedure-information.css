@@ -24,6 +24,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 8px;
+    max-width: 34rem;
 }
 
 .operation-procedure-step__instruction {
@@ -34,9 +35,16 @@
     padding-left: 93px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1110px) {
     .operating-procedure-information__container {
         flex-direction: column;
         gap: 1.5rem;
+        align-items: center;
+        width: 100%;
+    }
+
+    .operating-procedure-information__steps-container {
+        max-width: 60rem;
+        width: 100%;
     }
 }

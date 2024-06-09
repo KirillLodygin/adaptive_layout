@@ -7,6 +7,13 @@
     mix-blend-mode: darken;
 }
 
+@media (max-width: 1110px) {
+    .hero-picture-wrapp {
+        top: -100px;
+        right: -140px;
+    }
+}
+
 @media (max-width: 640px) {
     .hero-picture-wrapp {
         top: -220px;

@@ -1,11 +1,11 @@
 .map {
     width: 100%;
     height: auto;
-    padding-top: 112px;
     padding-bottom: 120px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     position: relative;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .map-picture img {
-    width: auto;
+    width: 100%;
     height: 512px;
 }
 
@@ -28,7 +28,8 @@
     height: 288px;
     border-radius: var(--info-frame-border-radius);
     z-index: 10;
-    margin-left: 25rem;
+    margin-left: 19rem;
+    margin-top: 7rem;
 }
 
 .map_info-wrapp::after {
@@ -44,7 +45,7 @@
 }
 
 .map_info {
-    font-family: Montserrat, serif;
+    font-family: 'Montserrat', serif;
     background-color: var(--white-color);
     color: var(--black-color);
     border-radius: var(--info-frame-border-radius);
@@ -73,9 +74,10 @@
 
 .map_copy {
     margin-top: 9.5rem;
-    margin-left: 25rem;
+    margin-left: 19rem;
     text-align: left;
     color: var(--black-btn-color);
+    opacity: 50%;
 }
 
 .map_slitename {
@@ -87,6 +89,17 @@
 .map_agreement {
     font-size: var(--block-text-size-min);
     font-weight: var(--text-weight);
+}
+
+@media (max-width: 1100px) {
+    .map_info-wrapp, .map_copy {
+        margin-left: 5rem;
+    }
+
+    .map-picture img {
+        height: 400px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 640px) {
@@ -102,7 +115,7 @@
     }
 
     .map_info-wrapp, .map_copy {
-        margin-left: 1.25rem;
+        margin-left: 1.5rem;
     }
 
     .map_info-wrapp, .map_info {

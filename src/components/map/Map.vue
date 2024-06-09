@@ -1,5 +1,5 @@
 <template>
-  <div class="map honest-block">
+  <div class="map">
     <div class="map-picture">
       <img src="@/assets/img/map.png" loading="lazy" alt="">
     </div>
