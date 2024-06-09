@@ -3,7 +3,9 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 0 40rem 0 25rem;
+    margin-left: 20%;
+    margin-right: auto;
+    max-width: 796px;
 }
 
 .hero-header__title-wrapp {
@@ -33,6 +35,12 @@
     line-height: 32px;
     text-align: left;
     max-width: 39rem;
+}
+
+@media (max-width: 1110px) {
+    .hero-header__container {
+        margin-left: 10%;
+    }
 }
 
 @media (max-width: 640px) {

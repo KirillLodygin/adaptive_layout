@@ -1,5 +1,5 @@
 body {
-    font-family: Montserrat, serif;
+    font-family: 'Montserrat', serif;
     font-size: 16px;
     color: var(--header-color);
     background-color: var(--body-color);
@@ -25,7 +25,7 @@ h3 {
 }
 
 button {
-    font-family: Proxima Nova, serif;
+    font-family: 'Proxima Nova', serif;
     font-size: var(--btn-text-size);
     border-radius: var(--btn-border-radius);
     display: flex;
@@ -42,7 +42,6 @@ button {
 .block-wrapp {
     width: 100%;
     height: auto;
-    padding-top: 112px;
     padding-bottom: 120px;
     display: flex;
     flex-direction: column;
@@ -66,6 +65,12 @@ button {
     content: url('../img/scroll-up.svg');
     display: inline-block;
     margin-left: 8px;
+}
+
+@media (max-width: 1110px) {
+    .block-wrapp {
+        padding: 1.5rem 1.25rem;
+    }
 }
 
 @media (max-width: 640px) {

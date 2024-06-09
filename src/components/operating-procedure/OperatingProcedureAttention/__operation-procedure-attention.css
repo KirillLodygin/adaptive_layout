@@ -1,5 +1,5 @@
 .operating-procedure-attention {
-    width: 34rem;
+    max-width: 34rem;
     height: auto;
     background-color: var(--white-color);
     border-left: var(--attention-color) solid 5px;
@@ -25,7 +25,18 @@
     font-size: var(--block-text-size-smole);
     font-weight: var( --text-weight);
     text-align: left;
-    width: 28rem;
+    max-width: 28rem;
+}
+
+@media (max-width: 1110px) {
+    .operating-procedure-attention {
+        max-width: 68rem;
+        width: 85%;
+    }
+
+    .operating-procedure-attention__text {
+        max-width: 60rem;
+    }
 }
 
 @media (max-width: 640px) {
