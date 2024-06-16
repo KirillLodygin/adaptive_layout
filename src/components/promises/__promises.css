@@ -16,6 +16,5 @@
     .promises__container {
         flex-direction: column;
         gap: 1rem;
-        align-items: center;
     }
 }
