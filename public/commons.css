@@ -1,0 +1,66 @@
+.marker {
+    width: 25px;
+    height: 25px;
+
+    cursor: pointer;
+
+    border: 10px solid #006efc;
+    border-radius: 50%;
+    background-color: #fff;
+
+    transform: translate(-50%, -50%);
+}
+
+.popup {
+    position: absolute;
+
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    align-items: center;
+
+    width: 150px;
+    max-height: 150px;
+    padding: 20px 25px;
+
+    border: 2px solid #000;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 0 0 8px 0 #0003;
+
+    transform: translate(30px, -220px);
+
+    gap: 20px;
+
+    overscroll-behavior: contain;
+    touch-action: pan-y;
+}
+
+.popup__text {
+    font-size: 20px;
+    font-weight: 600;
+    white-space: break-spaces;
+}
+
+.popup__close {
+    padding: 7px;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    background-color: rgb(253, 100, 102);
+
+    transition: background-color 0.2s;
+}
+
+.popup__close:hover {
+    background-color: rgb(253, 80, 80);
+}
+
+.popup__close:active {
+    background-color: rgb(253, 100, 102);
+}

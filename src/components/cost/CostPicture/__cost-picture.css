@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1110px) {
     .cost-picture-wrapp {
         display: none;
     }

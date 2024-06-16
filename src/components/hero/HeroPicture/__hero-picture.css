@@ -7,10 +7,27 @@
     mix-blend-mode: darken;
 }
 
+.hero-picture-wrapp img {
+    max-width: 37rem;
+    height: auto;
+}
+
+@media (max-width: 1110px) {
+    .hero-picture-wrapp {
+        top: -20px;
+    }
+    .hero-picture-wrapp img {
+        max-width: 24rem;
+    }
+}
+
 @media (max-width: 640px) {
     .hero-picture-wrapp {
-        top: -220px;
-        right: -240px;
+        top: -95px;
+        right: -70px;
+    }
+    .hero-picture-wrapp img {
+        max-width: 19rem;
     }
 }
 

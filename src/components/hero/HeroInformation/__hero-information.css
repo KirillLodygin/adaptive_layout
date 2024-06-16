@@ -1,6 +1,7 @@
 .hero-information__container {
     height: auto;
     min-height: 280px;
+    width: calc(52%);
     border-left: 2px solid var(--black-color);
     padding: 0 0 0 4rem;
     display: flex;
@@ -8,7 +9,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 80px;
-    margin: 0 22rem 0 25rem;
+    margin-left: 20%;
+    margin-right: auto;
 }
 
 .hero-information__wrapp {
@@ -29,18 +31,26 @@
     min-height: 0;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1110px) {
     .hero-information__container {
         flex-direction: column;
-        gap: 16px;
-        margin: 0 1rem 0 1.25rem;
-    }
-
-    .hero-information__wrapp {
-        gap: 16px;
+        gap: 1rem;
+        width: calc(75%);
+        margin-left: 10%;
     }
 
     .hero-information__block {
         min-height: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero-information__container {
+        margin: 0 1rem 0 1.25rem;
+        width: auto;
+    }
+
+    .hero-information__wrapp {
+        gap: 16px;
     }
 }
